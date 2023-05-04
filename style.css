@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  margin-bottom: 50rem;
+  background-color:#e5ddd6;
+  
+
+}
+.grain::before{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  opacity: .05;  
+  z-index: 1000;
+  pointer-events: none;
+  background: url(/noise.gif) ;
+}
+
+
+/* font size and margins for  "say cheese" */
+.phrase h1{
+
+  color:#7890af;
+  font-family: "Brush Script MT", cursive;
+  font-size: 4rem;
+  margin-left: 30px;
+  margin-top: 1px;
+
+}
+
+/* font size and margins for title */
+.title h1{
+
+  text-align: center;
+  color:#7890af;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  margin-top: 45px;
+  
+
+}
+
+.box1{
+  display: inline-block;
+  padding:90px;
+  width:200px;
+  height: 130px;
+  border: 2px solid #7890af;
+  margin-top: 2%;
+  margin-left: 40%;
+  text-align: center;
+  background-image: url(Hike.jpg);
+  background-size: cover;
+}
+
+.box1 h1{
+  color: #e5ddd6;
+  font-size: 54px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7890af;
+}
+
+
+
+
+.box2{
+  padding:90px;
+  width:200px;
+  height: 130px;
+  border: 2px solid #7890af;
+  margin-top: 2%;
+  margin-left: 40%;
+  text-align: center;
+  background-image: url(BKbridge.jpg);
+  background-size: cover;
+}
+
+.box2 h1{
+  color: #e5ddd6;
+  font-size: 54px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7890af;
+}
+
+.box3{
+  padding:90px;
+  width:200px;
+  height: 150px;
+  border: 2px solid #7890af;
+  margin-top: 2%;
+  margin-left: 40%;
+  text-align: center;
+  background-image: url(vegaslights.JPG);
+  background-size: cover;
+}
+
+.box3 h1{
+  color: #e5ddd6;
+  font-size: 54px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7890af;
+}
+
+
+

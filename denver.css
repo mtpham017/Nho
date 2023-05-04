@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    margin: 0;
+    margin-bottom: 50rem;
+    background-color:#e5ddd6;
+    
+  
+  }
+  .grain::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    opacity: .05;  
+    z-index: 1000;
+    pointer-events: none;
+    background: url(/noise.gif) ;
+  }
+  
+  
+  /* font size and margins for  "say cheese" */
+  .phrase h1{
+  
+    color:#7890af;
+    font-family: "Brush Script MT", cursive;
+    font-size: 4rem;
+    margin-left: 30px;
+    margin-top: 1px;
+  
+  }
